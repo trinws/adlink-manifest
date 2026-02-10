@@ -7,7 +7,8 @@
   <remote fetch="http://git.shr-project.org" name="shr"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://github.com/ADLINK" name="adlink"/>
-  
+  <remote fetch="https://github.com/trinws" name="trinws"/>
+
   <default revision="kirkstone" sync-j="4"/>
   
   <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
@@ -26,6 +27,8 @@
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
   <project name="meta-adlink-qualcomm" path="meta-adlink-qualcomm" remote="adlink" revision="29d9522e5479676cacd5684783ff51daae239c1b" upstream="kirkstone"/>
+  <project name="meta-nix-backports" path="meta-nix-backports" remote="trinws" revision="ef5d224028539d095da1e21e00ddcb2f5fa1088a" upstream="master"/>
+  <project name="meta-nix-lec-rb5-interposer-bsp" path="meta-nix-lec-rb5-interposer-bsp" remote="trinws" revision="2d95dec22b12c7f3fff1e52c653388501cf96131" upstream="master"/>
   <linkfile dest="adlink-rb5-setup-release.sh" src="conf/adlink-conf/adlink-rb5n-setup-release.sh"/>
 </manifest>
 
