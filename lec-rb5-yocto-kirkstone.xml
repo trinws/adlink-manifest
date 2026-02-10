@@ -7,7 +7,7 @@
   <remote fetch="http://git.shr-project.org" name="shr"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://github.com/ADLINK" name="adlink"/>
-  <remote fetch="https://github.com/trinws" name="trinws"/>
+  <remote fetch="git@github.com:trinws" name="trinws"/>
 
   <default revision="kirkstone" sync-j="4"/>
   
